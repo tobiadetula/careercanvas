@@ -31,6 +31,11 @@
                          height="56" 
                          data-animation="skill-icon" />
                   </div>
+                {{ else if .simple_icon }}
+                <div class="h-14 flex items-center justify-center mb-2">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{{ .simple_icon }}.svg" alt="{{ .name }}"
+                        width="56" height="56" class="dark:invert" data-animation="skill-icon" />
+                </div>
                 {{ else }}
                   <!-- Fallback to FontAwesome with random colors -->
                   {{ $colors := slice "text-blue-500" "text-green-500" "text-purple-500" "text-red-500" "text-yellow-500" "text-indigo-500" "text-pink-500" "text-teal-500" "text-orange-500" "text-cyan-500" }}
