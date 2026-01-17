@@ -61,7 +61,7 @@ theme = "careercanvas"
 
   # Resume/CV
   resume_url_en = "/files/your-resume-en.pdf"  # Path to English resume
-  resume_url_dk = "/files/your-resume-fr.pdf"  # Path to Danish resume (optional)
+  resume_url_da = "/files/your-resume-da.pdf"  # Path to Danish resume (optional)
   resume_label = "Full Resume"
 
   # Social Icons
